@@ -213,8 +213,6 @@ int main(int argc, char *argv[] )
 
   // ADD YOUR ALGORITHMS HERE
   cVecAlgos.push_back (new BubbleSort());
-  cVecAlgos.push_back (new InsertionSort());
-  cVecAlgos.push_back (new MergeSort());
 
   studentCount = loadFromFile(cOriginalArray, argv[1], studentCount);
   //writeToFile(cOriginalArray, "data/out.txt", 100000);
